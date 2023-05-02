@@ -1,0 +1,68 @@
+body{
+    background: grey;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    margin: 40px ;
+    gap: 10px;
+
+}
+
+.text{
+    margin-bottom: 10px;
+
+}
+
+h2{
+    margin-bottom: 2px;
+}
+
+.mark{
+    border: 1px solid rgb(50, 109, 248);
+    color: blue;
+    border-radius: 50%;
+    width: 150px;
+    height: 35px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background: rgb(92, 200, 232);
+
+}
+
+.close{
+    border: 1px solid rgb(181, 183, 188);
+    color: rgb(136, 136, 136);
+    border-radius: 50%;
+    width: 100px;
+    height: 17px;
+    font-size: 15px;
+    margin-right: 30px;
+    margin-top: 25px;
+    text-align: center;
+    background:  rgb(181, 183, 188);
+}
+
+.btn-1{
+    color: white;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+.btn-2{
+    color: blue;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(72, 72, 72);
+    padding: 5px 10px;
+}
