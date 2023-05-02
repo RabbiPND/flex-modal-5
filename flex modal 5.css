@@ -12,6 +12,7 @@ body{
     width: 500px;
     margin: 40px ;
     gap: 10px;
+    flex-shrink: 0;
 
 }
 
